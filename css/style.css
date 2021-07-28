@@ -41,40 +41,40 @@ label, p {
     font-weight: bold;
 }
 
-.parte1 input, .parte2 input, .parte3 select {
+.parte-1 input, .parte-2 input, .parte-3 select {
     margin: 10px 5px 20px 2px;
     height: 35px;
     width: 190px;
 }
 
-.parte2 input{
+.parte-2 input{
     width: 480px;
 }
 
-.parte3 select{
+.parte-3 select{
     height: 35px;
     width: 356px;
 }
 
-.parte4, .parte5, .parte6 {
+.parte-4, .parte-5, .parte-6 {
     margin: 10px  auto;
 }
 
-.parte4 input, .parte4 label {
+.parte-4 input, .parte-4 label, .parte-5 label, .parte-5 input {
     font-weight: normal;
 }
 
-.parte4_a, .parte4_b, .parte4_c {
+.parte-4a, .parte-4b, .parte-4c {
     display: inline-block;
     margin: 5px 31px 20px;
 }
 
-.parte5_a, .parte5_a, .parte5_b, .parte5_c, .parte5_d, .parte5_e  {
+.parte-5a, .parte-5a, .parte-5b, .parte-5c, .parte-5d, .parte-5e  {
     display: inline-block;
     margin: 5px 15px 20px;
 }
 
-.parte6_a label {
+.parte-6a label {
     display: block;
     margin: 5px 0;
 }
@@ -108,9 +108,11 @@ button:hover {
     transition: 0.5s;
     border: 2px solid rgb(100, 87, 85) ;
 }
+
 input:focus, textarea:focus{
     background-color:#eee9e4 ;
 }
+
 /* FOOTER */
 
 address {
