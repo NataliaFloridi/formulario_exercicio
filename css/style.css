@@ -56,27 +56,37 @@ label, p {
     width: 356px;
 }
 
-.parte-4, .parte-5, .parte-6 {
+.parte-4 {
     margin: 10px  auto;
 }
 
-.parte-4 input, .parte-4 label, .parte-5 label, .parte-5 input {
+.parte-4 input, .parte-4 label {
     font-weight: normal;
 }
 
-.parte-4a, .parte-4b, .parte-4c {
+.parte-4a {
     display: inline-block;
     margin: 5px 31px 20px;
 }
 
-.parte-5a, .parte-5a, .parte-5b, .parte-5c, .parte-5d, .parte-5e  {
+.parte-4b  {
     display: inline-block;
     margin: 5px 15px 20px;
 }
 
-.parte-6a label {
+.parte-4c label {
+    font-weight: bold;
     display: block;
     margin: 5px 0;
+}
+
+input, textarea, button, select {
+    border-radius: 5px;
+    border: 1px solid rgb(177, 177, 177) ;
+}
+
+input:focus, textarea:focus{
+    background-color:#eee9e4 ;
 }
 
 .button {
@@ -87,19 +97,11 @@ label, p {
 }
 
 button {
+    background-color: #b9c9c8;
     margin: 0 5px ;
     height: 35px;
     text-align: center;
     width: 150px;   
-}
-
-input, textarea, button, select {
-    border-radius: 5px;
-    border: 1px solid rgb(177, 177, 177) ;
-}
-
-button {
-    background-color: #b9c9c8;
 }
 
 button:hover {
@@ -107,10 +109,6 @@ button:hover {
     cursor: pointer;
     transition: 0.5s;
     border: 2px solid rgb(100, 87, 85) ;
-}
-
-input:focus, textarea:focus{
-    background-color:#eee9e4 ;
 }
 
 /* FOOTER */
