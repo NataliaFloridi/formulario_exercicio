@@ -1,0 +1,118 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, p, label, input, select {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #b9c9c8;
+    color: #645755;
+}
+
+/* MAIN */
+
+main {
+    background-color: #f0dec9;
+    border-radius: 10px;
+    box-shadow: 0  2px 2px 2px rgb(177, 177, 177);
+    margin: 50px auto;
+    width: 760px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    padding: 30px;
+    margin: 12px auto;
+}
+
+form, .button {
+    margin: 0 auto;
+    width: 550px;
+}
+
+label, p {
+    font-weight: bold;
+}
+
+.parte1 input, .parte2 input, .parte3 select {
+    margin: 10px 5px 20px 2px;
+    height: 35px;
+    width: 190px;
+}
+
+.parte2 input{
+    width: 480px;
+}
+
+.parte3 select{
+    height: 35px;
+    width: 356px;
+}
+
+.parte4, .parte5, .parte6 {
+    margin: 10px  auto;
+}
+
+.parte4 input, .parte4 label {
+    font-weight: normal;
+}
+
+.parte4_a, .parte4_b, .parte4_c {
+    display: inline-block;
+    margin: 5px 31px 20px;
+}
+
+.parte5_a, .parte5_a, .parte5_b, .parte5_c, .parte5_d, .parte5_e  {
+    display: inline-block;
+    margin: 5px 15px 20px;
+}
+
+.parte6_a label {
+    display: block;
+    margin: 5px 0;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 60px;
+}
+
+button {
+    margin: 0 5px ;
+    height: 35px;
+    text-align: center;
+    width: 150px;   
+}
+
+input, textarea, button, select {
+    border-radius: 5px;
+    border: 1px solid rgb(177, 177, 177) ;
+}
+
+button {
+    background-color: #b9c9c8;
+}
+
+button:hover {
+    background-color: #7b9795;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid rgb(100, 87, 85) ;
+}
+input:focus, textarea:focus{
+    background-color:#eee9e4 ;
+}
+/* FOOTER */
+
+address {
+    text-align: center;
+}

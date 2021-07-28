@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de contato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        
+        <h1>Formulário de contato</h1>
+
+       
+        <form action="" class="parte1">
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder=" Digite seu nome..." required>
+            
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" placeholder=" Digite seu sobrenome..." required>  
+
+        </form>
+    
+
+        <form action="" class="parte2">
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder=" Digite seu e-mail..." required>  
+
+        </form>
+        
+        
+        <form action="" class="parte3">
+
+            <label for="assunto">Assunto da mensagem</label>
+
+            <select name="assunto" id="assunto">
+
+                <option value="">Selecione...</option>
+
+                <optgroup label="Informações">
+
+                    <option value="compra">Compra</option>
+                    <option value="venda">Venda</option>
+                    <option value="franquia">Franquia</option>
+                    <option value="entrega">Entrega</option>
+
+                </optgroup>
+
+                <optgroup label="Reclamações">
+
+                    <option value="atendimento">Atendimento</option>
+                    <option value="produtos">Produtos</option>
+
+                </optgroup>
+
+                <optgroup label="Sugestões">
+
+                    <option value="o que podemos melhorar">O que podemos melhorar?</option>
+                    <option value="conte sua ideia">Conte a sua ideia!</option>
+
+                </optgroup>
+
+                <optgroup label="Outros">
+
+                    <option value="outros assuntos">Outos assuntos</option>
+
+                </optgroup>
+
+            </select>
+
+        </form>
+
+        <form action="" class="parte4">
+
+            <p>Sexo</p>
+
+            <div class="parte4_a">
+
+                <input type="radio" id="feminino" value="feminino" name="sexo">  
+                <label for="feminino">feminino</label>
+                
+            </div>
+
+            <div class="parte4_b">
+
+                <input type="radio" id="masculino" value="masculino"name="sexo">  
+                <label for="masculino">masculino</label>
+
+            </div>
+
+            <div class="parte4_b">
+
+                <input type="radio" id="nda" value="prefiro não responder" name="sexo">  
+                <label for="nda">prefiro não responder</label>
+
+            </div>
+    
+        </form>
+
+        <form action="" class="parte4" >
+
+            <p>Hobbie</p>
+
+            <div class="parte5_a">
+
+                <label for="">Esportes</label>
+                <input type="checkbox">
+
+            </div>
+         
+            <div class="parte5_b">
+
+                <label for="">Meditação</label>
+                <input type="checkbox"> 
+
+            </div>
+         
+            <div class="parte5_c">
+
+                <label for="">Música</label>
+                <input type="checkbox">
+
+            </div>
+        
+            <div class="parte5_d">
+
+                <label for="">Leitura</label>
+                <input type="checkbox"> 
+
+            </div>
+          
+            <div class="parte5_e">
+
+                <label for="">Viajar</label>
+                <input type="checkbox">
+
+            </div>
+
+        </form>   
+
+        <form action="" class="parte6">
+
+            <div class="parte6_a">
+
+                <label for="comentarios">Deixe seu comentário</label>
+            
+                <textarea name="comentarios" id="comentarios" cols="76" rows="10" placeholder=" Digite sua mensagem..." required></textarea>
+
+            </div>
+           
+        </form>  
+
+        <div class="button">
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Excluir</button>
+            
+        </div>
+
+    </main>
+
+    <footer>
+
+        <address>Desenvolvido por Natália Floridi -2021 </address>
+
+    </footer>
+    
+    
+    
+</body>
+</html>
